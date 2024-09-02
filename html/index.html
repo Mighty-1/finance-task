@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./../css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6676a92376.js"
+      crossorigin="anonymous"
+    ></script>
+    
+    <title>Finances</title>
+  </head>
+  <body>
+    <header>
+      <h2>Overview</h2>
+      <div class="header-div">
+        <div class="header-content1">
+          <div class="cb">Current Balance</div>
+          <div class="cb-value">$4,836.00</div>
+        </div>
+        <div class="header-content2">
+          <div class="income">Income</div>
+          <div class="income-value">$3,814.25</div>
+        </div>
+        <div class="header-content2">
+          <div class="income">Expenses</div>
+          <div class="income-value">$1,700.50</div>
+        </div>
+      </div>
+    </header>
+    <aside>
+      <div class="aside-section">
+        <h2>finance</h2>
+        <div class="menu">
+          <div class="overview"><i class="fa-solid fa-house" style="color: #ffffff;"></i> <div>Overview</div></div>
+          <div class="overview"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-up" id="up-down-arrow" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M11.5 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L11 2.707V14.5a.5.5 0 0 0 .5.5m-7-14a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L4 13.293V1.5a.5.5 0 0 1 .5-.5"/>
+          </svg><div>Transactions</div></div>
+          <div class="overview"><i class="fa-solid fa-chart-pie fa-rotate-180" style="color: #ffffff;"></i> <div>Budgets</div></div>
+          <div class="overview"><i class="fa-solid fa-file-invoice-dollar" style="color: #ffffff;"></i><div>Pots</div></div>
+          <div class="overview"><i class="fa-solid fa-money-bills" style="color: #ffffff;"></i><div>Recurring Bills</div></div>
+        </div>
+      </div>
+      <div class="overview">
+        <i class="fa-solid fa-arrow-left" style="color: #ffffff;"></i>
+        <div>Minimize Menu</div>
+      </div>
+    </aside>
+    <section>
+      <section class="grid-1">
+        <div class="pots-div">
+          <div class="pots">Pots</div>
+          <div class="pots-see-details">See Details</div>
+        </div>
+        <div class="pots-content">
+          <div class="money-icon">
+            <div class="icon">
+              <i
+                class="fa-solid fa-file-invoice-dollar fa-2xl"
+                style="color: #00996b"
+              ></i>
+            </div>
+            <div class="total-saved-div">
+              <div class="total-saved">Total Saved</div>
+              <div class="total-saved-value">$850</div>
+            </div>
+          </div>
+          <div class="savings-concert-ticket-div">
+            <div class="savings-div">
+              <div class="savings">Savings</div>
+              <div class="savings-value">$159</div>
+            </div>
+            <div class="concert-ticket-div">
+              <div class="ct">Concert Ticket</div>
+              <div class="ct-value">$110</div>
+            </div>
+          </div>
+          <div class="gift-newlaptop-container">
+            <div class="gift-div">
+              <div class="gift">Gift</div>
+              <div class="gift-value">$40</div>
+            </div>
+            <div class="new-laptop-div">
+              <div class="new-laptop">New Laptop</div>
+              <div class="new-laptop-value">$10</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="grid-2">
+        <div class="budget-div">
+          <div class="budgets">Budgets</div>
+          <div class="budgets-see-details">See Details</div>
+        </div>
+        <div class="budgets-content">
+          <div class="budgets-diagram">
+            <!-- <canvas id="myChart"></canvas> -->
+          </div>
+          <div class="budgets-content-values">
+            <div class="bgt-items1">
+              <div class="bgt">Entertainment</div>
+              <div class="bgt-value">$50.00</div>
+            </div>
+            <div class="bgt-items2">
+              <div class="bgt">Bills</div>
+              <div class="bgt-value">$750.00</div>
+            </div>
+            <div class="bgt-items3">
+              <div class="bgt">Dining Out</div>
+              <div class="bgt-value">$75.00</div>
+            </div>
+            <div class="bgt-items4">
+              <div class="bgt">Personal Care</div>
+              <div class="bgt-value">$100.00</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="grid-3">
+        <div class="trst-div">
+          <div class="trst">Transactions</div>
+          <div class="view-all">View All</div>
+        </div>
+        <div class="transaction-history">
+          <div class="transactions">
+            <div class="cd-db-user">
+              <div>
+                <img src="./../photos/image-avatar.png" alt="" width="30px" />
+              </div>
+              <div class="cd-db-username">Emma Richardson</div>
+            </div>
+            <div class="cd-db-value-and-time">
+              <div class="cd-db-value-cd">+$75.50</div>
+              <div class="cd-db-time">19 Aug 2024</div>
+            </div>
+          </div>
+          <div class="transactions">
+            <div class="cd-db-user">
+              <div>
+                <img src="./../photos/image-avatar.png" alt="" width="30px" />
+              </div>
+              <div class="cd-db-username">Savory Bites Bistro</div>
+            </div>
+            <div class="cd-db-value-and-time">
+              <div class="cd-db-value">-$55.50</div>
+              <div class="cd-db-time">19 Aug 2024</div>
+            </div>
+          </div>
+          <div class="transactions">
+            <div class="cd-db-user">
+              <div>
+                <img src="./../photos/image-avatar.png" alt="" width="30px" />
+              </div>
+              <div class="cd-db-username">Daniel Carter</div>
+            </div>
+            <div class="cd-db-value-and-time">
+              <div class="cd-db-value">-$42.30</div>
+              <div class="cd-db-time">18 Aug 2024</div>
+            </div>
+          </div>
+          <div class="transactions">
+            <div class="cd-db-user">
+              <div>
+                <img src="./../photos/image-avatar.png" alt="" width="30px" />
+              </div>
+              <div class="cd-db-username">Sun Park</div>
+            </div>
+            <div class="cd-db-value-and-time">
+              <div class="cd-db-value-cd">+$120.00</div>
+              <div class="cd-db-time">17 Aug 2024</div>
+            </div>
+          </div>
+          <div class="transactions2">
+            <div class="cd-db-user">
+              <div>
+                <img src="./../photos/image-avatar.png" alt="" width="30px" />
+              </div>
+              <div class="cd-db-username">Urban Services Hub</div>
+            </div>
+            <div class="cd-db-value-and-time">
+              <div class="cd-db-value">-$65.00</div>
+              <div class="cd-db-time">17 Aug 2024</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="grid-4">
+        <div class="recurring-bills">
+          <div class="recurring-header">Recurring Bills</div>
+          <div class="recurring-details">See Details</div>
+        </div>
+        <div class="recurring-contents">
+          <div class="content1">
+            <div class="rcr">Paid Bills</div>
+            <div class="rcr-value">$190.00</div>
+          </div>
+          <div class="content2">
+            <div class="rcr">Total Upcoming</div>
+            <div class="rcr-value">$190.00</div>
+          </div>
+          <div class="content3">
+            <div class="rcr">Due Soon</div>
+            <div class="rcr-value">$190.00</div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
