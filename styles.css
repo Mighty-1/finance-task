@@ -141,7 +141,7 @@ header h2 {
 .pots-div {
   display: flex;
   justify-content: space-between;
-  width: 95%;
+  width: 85%;
 }
 .pots {
   font-size: 16px;
