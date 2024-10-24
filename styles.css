@@ -63,7 +63,7 @@ section {
   align-items: center;
   background-color: #ffffff;
   border-radius: 10px;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 .grid-2 {
   grid-area: budget;
@@ -80,8 +80,8 @@ section {
   gap: 30px;
   background-color: #ffffff;
   border-radius: 10px;
-  margin-top: 10px;
-  margin-right: 10px;
+  margin-top: 20px;
+  margin-right: 20px;
 }
 .grid-4 {
   grid-area: bill;
@@ -90,7 +90,7 @@ section {
   gap: 30px;
   background-color: #ffffff;
   border-radius: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 header h2 {
   margin-left: 20px;
@@ -268,7 +268,7 @@ header h2 {
 .budgets-content-values {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 .bgt {
   font-size: 12px;
@@ -318,7 +318,7 @@ header h2 {
 .transaction-history {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
 }
 .transactions {
   display: flex;
@@ -389,7 +389,7 @@ header h2 {
   background-color: #f8f5f0;
   border-left: 5px solid green;
   width: 45vh;
-  padding: 16px;
+  padding: 20px;
 }
 .content2 {
   display: flex;
@@ -399,7 +399,7 @@ header h2 {
   background-color: #f8f5f0;
   border-left: 5px solid yellow;
   width: 45vh;
-  padding: 16px;
+  padding: 20px;
 }
 .content3 {
   display: flex;
@@ -409,7 +409,7 @@ header h2 {
   background-color: #f8f5f0;
   border-left: 5px solid skyblue;
   width: 45vh;
-  padding: 16px;
+  padding: 20px;
 }
 .rcr {
   font-size: 12px;
